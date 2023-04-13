@@ -28,6 +28,4 @@ public class ExerciseController {
     void deleteExercise(@PathVariable Long id) {
         exerciseService.deleteById(id);
     }
-
-
 }
